@@ -32,7 +32,7 @@ time needed to move data and/or results to disk, show that this has no
 measureable impact on pandaseq performance.
 
 |Cores    | t (no SSD)    | t (SSD in)    | t (SSD out)  | t (SSD inout) |
-| ------- | ------------- | ------------- | ------------ | ------------- |
+| ------- |:-------------:|:-------------:|:------------:|:-------------:|
 | 1       | 4156.19       | 4174.25       | 4096.18      | 4236.49       |
 | 2       | 2622.80       | 2566.23       | 2752.10      | 2605.08       |
 | 3       | 2649.50       | 2659.42       | 2755.59      | 2690.42       |
