@@ -37,29 +37,3 @@ measureable impact on pandaseq performance.
 | 2       | 2622.80       | 2566.23       | 2752.10      | 2605.08       |
 | 3       | 2649.50       | 2659.42       | 2755.59      | 2690.42       |
 | 8       | 2789.92       | 2729.27       | 2763.49      | 2830.39       |
-
-
-
---- 1 core ---
-pseq:          pandaseq time (s): 4156.19
-pseq_ssdin:    pandaseq time (s): 4174.25
-pseq_ssdinout: pandaseq time (s): 4096.18
-pseq_ssdout:   pandaseq time (s): 4236.49
-
---- 2 core ---
-pseq:          pandaseq time (s): 2622.80
-pseq_ssdin:    pandaseq time (s): 2566.23
-pseq_ssdinout: pandaseq time (s): 2752.10
-pseq_ssdout:   pandaseq time (s): 2605.08
-
---- 3 core ---
-pseq:          pandaseq time (s): 2649.50
-pseq_ssdin:    pandaseq time (s): 2659.42
-pseq_ssdinout: pandaseq time (s): 2755.59
-pseq_ssdout:   pandaseq time (s): 2690.42
-
---- 8 core ---
-pseq:          pandaseq time (s): 2789.92
-pseq_ssdin:    pandaseq time (s): 2729.27
-pseq_ssdinout: pandaseq time (s): 2763.49
-pseq_ssdout:   pandaseq time (s): 2830.39
