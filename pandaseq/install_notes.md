@@ -51,5 +51,7 @@ known to cause problems. See the following for more information on
 this topic
 
 /usr/lib64/pkgconfig/zlib.pc for library info
+
 https://autotools.io/pkgconfig/pkg_check_modules.html
+
 https://en.wikipedia.org/wiki/Pkg-config
