@@ -10,19 +10,24 @@ The standard build and installation procedure is as follows, but minor
 modifications may be required.
 
 ./autogen.sh
+
 ./configure --prefix=$HOME/PANDASEQ
+
 make
+
 make install
 
 
 (1) Comment out the following lines in configure
 
 PKG_CHECK_MODULES(Z,  zlib )
+
 PKG_CHECK_MODULES(CURL,  libcurl , have_curl=true, have_curl=false)
 
 (2) Run autogen.sh and configure
 
 ./autogen.sh
+
 ./configure --prefix=$HOME/PANDASEQ
 
 (3) In the Makefile that is generated from configure, search for
@@ -36,6 +41,7 @@ out. Including this step in case the developers decide to enable.
 (5) Run make and make install
 
 make
+
 make install
 
 ----- Additional notes ----
