@@ -10,6 +10,7 @@ Dual socket 12-core Intel E5-2680 v3 @ 2.50GHz (SDSC Comet supercomputer)
 Vanderbilt pre-pilot paired end reads (corresponds to 98,913,801 reads)
 
 13389_S1_L002_R1_001.fastq.gz
+
 13389_S1_L002_R2_001.fastq.gz
 
 ##Output
