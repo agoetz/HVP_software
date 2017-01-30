@@ -37,7 +37,7 @@ Vanderbilt pre-pilot paired end reads (corresponds to 98,913,801 reads). 53 GB u
 
 * Parallel version of lbzip2 is slower than unpigz at small core counts, but faster when using 8 or more cores
 
-sadfdsafds
+All timings are in seconds
 
 |Cores  | pigz     | unpigz   | lbzip2   | lbunzip2 |
 | ----- |:--------:|:--------:|:--------:|:--------:|
