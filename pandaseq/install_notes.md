@@ -11,7 +11,7 @@ modifications may be required.
 
 ./autogen.sh
 
-./configure --prefix=$HOME/PANDASEQ
+./configure --prefix=$HOME/HVP_exe/PANDASEQ
 
 make
 
