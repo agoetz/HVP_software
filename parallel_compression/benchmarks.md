@@ -47,3 +47,4 @@ Vanderbilt pre-pilot paired end reads (corresponds to 98,913,801 reads). 53 GB u
 |  8    |  625     |  291     |  429     |  197     |
 | 16    |  320     |  219     |  234     |  105     |
 | 24    |  218     |  252     |  157     |  247     |
+
