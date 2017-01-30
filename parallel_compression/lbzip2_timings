@@ -1,0 +1,44 @@
+--- lbzip2/lbunzip2 benchmarks ---
+
+1 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 3092.26
+-rw-r--r-- 1 sinkovit install 9.9G Jan 27 14:16 13389_S1_L002_R2_001.fastq.bz2
+uncompress: 1281.34
+
+2 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 1548.40
+-rw-r--r-- 1 sinkovit install 9.9G Jan 27 14:16 13389_S1_L002_R2_001.fastq.bz2
+uncompress: 696.84
+
+3 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 1045.70
+-rw-r--r-- 1 sinkovit install 9.9G Jan 27 14:16 13389_S1_L002_R2_001.fastq.bz2
+uncompress: 477.05
+
+4 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 793.48
+-rw-r--r-- 1 sinkovit install 9.9G Jan 27 14:16 13389_S1_L002_R2_001.fastq.bz2
+uncompress: 365.65
+
+8 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 429.19
+-rw-r--r-- 1 sinkovit install 9.9G Jan 27 14:16 13389_S1_L002_R2_001.fastq.bz2
+uncompress: 197.68
+
+16 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 234.21
+-rw-r--r-- 1 sinkovit install 9.9G Jan 27 14:16 13389_S1_L002_R2_001.fastq.bz2
+uncompress: 105.78
+
+24 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 157.19
+-rw-r--r-- 1 sinkovit install 9.9G Jan 27 14:16 13389_S1_L002_R2_001.fastq.bz2
+uncompress: 247.78
+

@@ -1,0 +1,44 @@
+--- pigz/unpigz benchmarks ---
+
+1 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 4417.86
+-rw-r--r-- 1 sinkovit install 14G Jan 27 14:16 13389_S1_L002_R2_001.fastq.gz
+uncompress: 291.89
+
+2 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 2210.07
+-rw-r--r-- 1 sinkovit install 14G Jan 27 14:16 13389_S1_L002_R2_001.fastq.gz
+uncompress: 238.78
+
+3 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 1512.58
+-rw-r--r-- 1 sinkovit install 14G Jan 27 14:16 13389_S1_L002_R2_001.fastq.gz
+uncompress: 242.23
+
+4 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 1143.68
+-rw-r--r-- 1 sinkovit install 14G Jan 27 14:16 13389_S1_L002_R2_001.fastq.gz
+uncompress: 258.39
+
+8 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 625.04
+-rw-r--r-- 1 sinkovit install 14G Jan 27 14:16 13389_S1_L002_R2_001.fastq.gz
+uncompress: 291.27
+
+16 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 320.84
+-rw-r--r-- 1 sinkovit install 14G Jan 27 14:16 13389_S1_L002_R2_001.fastq.gz
+uncompress: 219.96
+
+24 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 53G Jan 27 14:16 13389_S1_L002_R2_001.fastq
+compress: 218.92
+-rw-r--r-- 1 sinkovit install 14G Jan 27 14:16 13389_S1_L002_R2_001.fastq.gz
+uncompress: 252.94
+
