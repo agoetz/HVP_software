@@ -32,6 +32,7 @@ results results to SSDs. The timings below, which do not include the
 time needed to move data and/or results to disk, show that this has no
 measureable impact on pandaseq performance.
 
+
 |Cores    | t (s)    |
 | ------- |:--------:|
 |  1      |          |
