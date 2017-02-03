@@ -1,4 +1,4 @@
-##Parallel gzip and bzip2 benchmarks
+#Parallel gzip and bzip2 benchmarks
 
 ###Sofware
 gzip 1.3.12
