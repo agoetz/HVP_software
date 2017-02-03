@@ -1,6 +1,6 @@
-#Parallel gzip and bzip2 benchmarks
+##Parallel gzip and bzip2 benchmarks
 
-##Sofware
+###Sofware
 gzip 1.3.12
 
 bzip2 1.0.5
@@ -9,17 +9,17 @@ pigz 2.3.3 (parallel implementation of gzip)
 
 lbzip2 2.5 (parallel implementation of bzip2)
 
-##Hardware
+###Hardware
 
 Dual socket 12-core Intel E5-2680 v3 @ 2.50GHz (SDSC Comet supercomputer)
 
-#FASTQ Data set
+##FASTQ Data set
 
 Vanderbilt pre-pilot paired end reads (corresponds to 98,913,801 reads). 53 GB uncompressed
 
 13389_S1_L002_R2_001.fastq
 
-##Output
+###Output
 
 13389_S1_L002_R2_001.fastq
 
@@ -27,7 +27,7 @@ Vanderbilt pre-pilot paired end reads (corresponds to 98,913,801 reads). 53 GB u
 
 13389_S1_L002_R2_001.fastq.bz2
 
-##Results
+###Results
 
 * bzip2/lbzip give better compression than gzip/pigz (9.9 GB vs 14 GB)
 
@@ -49,17 +49,17 @@ Vanderbilt pre-pilot paired end reads (corresponds to 98,913,801 reads). 53 GB u
 | 24    |  218     |  252     |  157     |  247     |
 
 
-#FASTA Data set
+##FASTA Data set
 
 FASTA file generated from paired end assembly of Vanderbilt pre-pilot paired end reads. 36 GB uncompressed
 
 13389_S1_L002_aligned_7487995.fasta
 
-##Output
+###Output
 
 13389_S1_L002_aligned_7487995.fasta.bz2
 
-##Results
+###Results
 
 * bzip2/lbzip give better compression than gzip/pigz (3.3 GB vs 5.4 GB)
 
