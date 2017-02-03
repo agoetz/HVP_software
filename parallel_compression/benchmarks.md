@@ -67,14 +67,14 @@ FASTA file generated from paired end assembly of Vanderbilt pre-pilot paired end
 
 * Parallel version of lbzip2 is faster than pigz for compression at all core counts
 
-* TBD Parallel version of lbzip2 is slower than unpigz at small core counts, but faster when using 8 or more cores
+* Parallel version of lbzip2 is slower than unpigz at small core counts, but comparable or slightly slower when using 8 or more cores
 
 
 |Cores  | pigz     | unpigz   | lbzip2   | lbunzip2 |
 |-------|----------|----------|----------|----------|
 |  1    | 3020     |  157     | 2336     |  861     |
 |  2    | 1535     |  153     | 1175     |  466     |
-|  3    | 1021     |  148     |          |          |
+|  3    | 1021     |  148     |  817     |          |
 |  4    |  774     |  154     |  590     |  246     |
 |  8    |  421     |  113     |  322     |  127     |
 | 16    |  228     |   89     |  170     |   77     |
