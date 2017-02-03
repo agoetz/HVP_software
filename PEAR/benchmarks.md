@@ -36,7 +36,7 @@ measureable impact on pandaseq performance.
 |Cores    | t (s)    |
 | ------- |:--------:|
 |  1      |          |
-|  2      |          |
+|  2      | 43227    |
 |  4      | 18804    |
 |  8      | 10521    |
 | 16      |  5658    |
