@@ -1,0 +1,50 @@
+--- lbzip2/lbunzip2 benchmarks ---
+
+1 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 36G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta
+compress: 2336.14
+-rw-r--r-- 1 sinkovit install 3.3G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta.bz2
+uncompress: 861.26
+
+2 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 36G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta
+compress: 1175.82
+-rw-r--r-- 1 sinkovit install 3.3G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta.bz2
+uncompress: 466.31
+
+3 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 36G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta
+compress: 817.51
+-rw-r--r-- 1 sinkovit install 3.3G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta.bz2
+uncompress: 321.97
+
+4 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 36G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta
+compress: 590.86
+-rw-r--r-- 1 sinkovit install 3.3G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta.bz2
+uncompress: 246.46
+
+8 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 36G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta
+compress: 322.08
+-rw-r--r-- 1 sinkovit install 3.3G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta.bz2
+uncompress: 127.44
+
+16 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 36G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta
+compress: 170.33
+-rw-r--r-- 1 sinkovit install 3.3G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta.bz2
+uncompress: 77.39
+
+24 core (compress/uncompress)
+-rw-r--r-- 1 sinkovit install 36G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta
+compress: 116.16
+-rw-r--r-- 1 sinkovit install 3.3G Feb  2 15:24 13389_S1_L002_aligned_7487995.fasta.bz2
+uncompress: 140.12
+
+
+
+
+
+
+
