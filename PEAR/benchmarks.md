@@ -22,15 +22,8 @@ myout.unassembled.reverse.fastq
 ##Results
 
 PEAR is a threaded code and we measured the run time as a function of
-thread count. Find that going beyond two threads does not improve
-performance and may even impact performance.
+thread count. Although the scalability is generally good, the overall performance (measured by walltime) is low compared to Pandaseq
 
-Pandaseq developers claim that the code is I/O bound. To test this
-claim, we repeated the benchmarks using the local SSDs available on
-the compute nodes. We copied input data to the SSDs and/or wrote
-results results to SSDs. The timings below, which do not include the
-time needed to move data and/or results to disk, show that this has no
-measureable impact on pandaseq performance.
 
 
 |Cores    | t (s)    |
