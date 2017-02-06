@@ -28,9 +28,11 @@ thread count. Although the scalability is generally good, the overall performanc
 
 |Cores    | t (s)    |
 | ------- |:--------:|
-|  1      |          |
+|  1      |    *     |
 |  2      | 43227    |
 |  4      | 18804    |
 |  8      | 10521    |
 | 16      |  5658    |
 | 24      |  3953    |
+
+* Job consistently does not complete within 48 hours. Unsure of reason since run time based on 2-core job estimated to be about 24 hours
