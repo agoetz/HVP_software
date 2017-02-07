@@ -22,7 +22,7 @@ myout.unassembled.reverse.fastq
 ##Results
 
 PEAR is a threaded code and we measured the run time as a function of
-thread count. Although the scalability is generally good, the overall performance (measured by walltime) is low compared to Pandaseq
+thread count. Although the scalability is generally good (21x speedup on 24 cores), the overall performance (measured by walltime) is low compared to Pandaseq
 
 
 
