@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Name:  fastq_splitter.sh
-# Usage: fastq_splitter.sh /full/path/to/reverse_or_forward_read
+# Usage: fastq_splitter.sh /full/path/to/reverse_or_forward_read [reads]
 #
 # Splits large paired end, compressed fastq files into manageable
-# chunks (currently hardcoded to 2M reads), each in their own
-# subdirectoires. For example
+# chunks (by default 2M reads), each in their own subdirectoires. For
+# example
 #
 # fastq_splitter.sh /full/path/RB01_run61_IgG3_R1.fastq.gz
 #
@@ -25,6 +25,15 @@
 
 # Get the full path to one of the paired end reads from command line
 fullname=$1
+
+# Set the number of reads and line count
+# (For fastq files, line count = 4 x number of reads)
+
+reads=2000000
+if [ $# == 2 ]; then
+    reads=$2
+fi
+let "lines = $reads * 4"
 
 # Trim down to a base without path, extensions or read direction, For example: 
 # /full/path/sample_run62_12345_1.fastq.gz --> sample_run62_12345
@@ -46,13 +55,13 @@ echo "Reverse read " $reverse
 # Change to new directory and split files
 # Create new subdirectories for each chunk
 cd $newdir
-zcat $forward | split -l 8000000 -a3 -d
+zcat $forward | split -l $lines -a3 -d
 for chunk in x???; do
     mkdir ${newdir}_${chunk}
     mv $chunk ${newdir}_${chunk}/${newdir}_${chunk}_1.fastq
 done
 
-zcat $reverse | split -l 8000000 -a3 -d
+zcat $reverse | split -l $lines -a3 -d
 for chunk in x???; do
     mv $chunk ${newdir}_${chunk}/${newdir}_${chunk}_2.fastq
 done
