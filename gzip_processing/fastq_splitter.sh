@@ -46,13 +46,13 @@ echo "Reverse read " $reverse
 # Change to new directory and split files
 # Create new subdirectories for each chunk
 cd $newdir
-zcat $forward | split -l 800000 -a3 -d
+zcat $forward | split -l 8000000 -a3 -d
 for chunk in x???; do
     mkdir ${newdir}_${chunk}
     mv $chunk ${newdir}_${chunk}/${newdir}_${chunk}_1.fastq
 done
 
-zcat $reverse | split -l 800000 -a3 -d
+zcat $reverse | split -l 8000000 -a3 -d
 for chunk in x???; do
     mv $chunk ${newdir}_${chunk}/${newdir}_${chunk}_2.fastq
 done
