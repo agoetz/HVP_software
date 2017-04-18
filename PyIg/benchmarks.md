@@ -33,7 +33,7 @@ processes.
 As expected the runtime is approximately linear in the number of
 sequences. On 1 Comet node we obtain a performance of around 70k
 sequences per core hour. The initial splitting of the FASTA file by
-PyIg is a serial process, which somewhat affexts scaling.
+PyIg is a serial process, which somewhat affects scaling.
 
 For large number of sequences the local SSD scratch space is
 insufficient. Benchmarks using the Data Oasis parallel filesystem
