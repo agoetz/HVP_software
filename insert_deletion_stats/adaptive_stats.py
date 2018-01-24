@@ -55,5 +55,5 @@ print("Probabilities for Vdel, N1ins, D5del, D3del, N2ins, Jdel")
 print("1st element corresponds to zero deletions or insertions\n")
 for x in vdel, n1ins, d5del, d3del, n2ins, jdel:
     mysum = sum(x)
-    y = ["{:.4f}".format(a/mysum) for a in x]
+    y = [a/mysum for a in x]
     print(y, "\n")
