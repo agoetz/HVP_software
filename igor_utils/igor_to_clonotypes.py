@@ -15,11 +15,6 @@ jgenes_file = args.jgenes_file
 cdr3_file = args.cdr3_file
 realize_file = args.realize_file
 
-print('V genes      ', vgenes_file)
-print('J genes      ', jgenes_file)
-print('CDR3         ', cdr3_file)
-print('Realizations ', realize_file)
-
 # Parse the V genes file and store arrays of allele and gene names
 
 v_alleles = []
