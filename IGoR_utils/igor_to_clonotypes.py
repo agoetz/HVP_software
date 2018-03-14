@@ -22,8 +22,11 @@ v_genes = []
 with open(vgenes_file, 'r') as fin:
     for line in fin:
         if line.find('>') == 0:
-            annot = line.split('|')
-            allele = annot[1]
+            if line.find('|') > 0:
+                annot = line.split('|')
+                allele = annot[1]
+            else:
+                allele = line.rstrip()[1:]
             star_loc = allele.find('*')
             gene = allele[0:star_loc]
             v_alleles.append(allele)
@@ -36,8 +39,11 @@ j_genes = []
 with open(jgenes_file, 'r') as fin:
     for line in fin:
         if line.find('>') == 0:
-            annot = line.split('|')
-            allele = annot[1]
+            if line.find('|') > 0:
+                annot = line.split('|')
+                allele = annot[1]
+            else:
+                allele = line.rstrip()[1:]
             star_loc = allele.find('*')
             gene = allele[0:star_loc]
             j_alleles.append(allele)
